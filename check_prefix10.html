@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกมตรวจสอบคำนำหน้านาม</title>
+    <style>
+        .content{
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            padding: 100px;
+            background-color: rgb(198, 238, 225);
+            border-radius: 20% 10%;
+            box-shadow: 10px 8px 6px wheat;
+
+        }
+        h2{
+           color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+       <h2 >โปรแกมตรวจสอบคำนำหน้านาม</h2>
+    <div class="content">
+    <form action="process_prefix.php" method="post">
+       <label for="">ชื่อ-พร้อคำนำหน้า</label>
+       <input type="text" name="text">
+       <input type="submit" value="Check">
+    </form>
+    </div>
+</body>
+</html>
