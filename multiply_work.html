@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สูตรแม่ต่างๆ</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 60px;
+        }
+        h1{
+            text-align: center;
+            font-size: 35px;
+            font-family: cursive;
+        }
+
+        input{
+            width: 200px;
+            height: 28px;
+            align-items: center;
+            margin-top: 1rem;
+            border-radius: 10px 10px 10px 10px;
+            
+        }
+        .header-info{
+            background-color:#08080844;
+            width: 700px;
+            height: 250px;
+            text-align: center;
+            border-radius: 25px 25px 15px 15px;
+            box-shadow: 10px 8px 6px rgb(168, 147, 108);
+            align-items: center;
+            margin: 0 auto;
+        }
+        label{
+            color: wheat;
+        }
+        label,input{
+            margin-top: 30px;
+        }
+        .content{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>โปรแกรมสร้างสูตรคูณแม่ ที่ต้องการ</h2>
+    <div class="header-info">
+    <form action="process_multiplywork.php" method="post">
+            <div class="content">
+            <label for="">ป้อนแม่ที่ต้องการ</label>
+            <input type="number" name="n" id=""><br>
+            <label for="">ป้อนเลขสุดท้ายที่ต้องการ</label>
+            <input type="number" name="m" id=""><br>
+            <label for="">ป้อนเลขแรกที่ต้องการคูณ</label>
+            <input type="number" name="pre" id=""><br>
+            <input type="submit" value="สร้างสูตรคูณ">
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>
