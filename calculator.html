@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมเครื่องคิดเลข</title>
+    <style>
+        .content{
+            text-align: center;
+            margin: auto;
+            width: 350px;
+            padding: 100px;
+            background-color: rgb(159, 163, 162);
+            border-radius: 20px;
+            box-shadow: 10px 8px 6px rgb(196, 164, 70);
+
+        }
+        button{
+            width: 150px;
+            height: 28px;
+            align-items: center; 
+            border-radius: 10px;
+        }
+        input{
+            width: 200px;
+            height: 28px;
+            align-items: center;
+            margin-top: 1rem;
+            border-radius: 10px;
+        }
+        select{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">โปรแกรมเครื่องคิดเลข</h2>
+    <div class="content">
+        <form action="process_calculator.php" method="get">
+            <label for="">เลขตัวแรก</label>
+            <input type="number" name="num1">
+            <select name="sign">
+                <option value="plus">+</option>
+                <option value="minas">-</option>
+                <option value="multiply">x</option>
+                <option value="divide">÷</option>
+            </select>
+            <br><br>
+            <label for="">เลขตัวสุดท้าย</label>
+            <input type="number" name="num2">
+            <br><br> 
+            <button type="submit">คำนวณ</button>
+        </form>
+    </div>
+</body>
+</html>
