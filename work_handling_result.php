@@ -25,39 +25,11 @@ switch ($m) {
         $ff = fopen($fn,$m) or die("ไม่สามารถสร้างได้");
         fwrite($ff,$Text1."\n");
         fwrite($ff,$Text2."\n");
-        fwrite($ff,$Text3."\n");
+        fwrite($ff,$Text3);
         fclose($ff);
         header('location: work_filehanling.html');
         break;
 
 }   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ?>
+?>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File System</title>
+    <style>
+        .content input, label{
+            display: block;
+            width: 170px;
+            height: 25px;
+            padding-left: 20px ;
+            margin: 0auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <form action="process_upload1.php" method="post" enctype="multipart/form-data">
+        <div class="content">
+            <label for="">ระบบส่งไฟล์ชิ้นงาน</label>
+            <!-- <input type="file" name="upfile" accept=".jpg,.png"> -->
+            <input type="file" name="upfile">
+            <input class="btn" type="submit" value="ส่งไฟล์" name="submit">
+        </div>
+    </form>
+</body>
+</html>
