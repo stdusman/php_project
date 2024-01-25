@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <style>
+        .logo{
+            width: 100px;
+            margin: 0 auto;
+            align-items: center;
+            display: block;
+            border: 0.8px solid rgb(202, 248, 103);
+        }
+        .sigin,input{
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 200px;
+           height: 25px;
+           padding-left: 20px;
+           margin-top: 4.3px;
+           border: 2.8px dashed slateblue;
+        }
+        .sigin,button[type=submit]{
+            display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 224px;
+           height: 25px;
+           border: 2.8px dashed palevioletred;
+           background-color: aqua;
+           color: black;
+           border-radius: 15px;
+           margin-top: 10px;
+           cursor: pointer; 
+        }
+        .sigin,button[type=reset]{
+            display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 224px;
+           height: 25px;
+           border: 2.8px dashed whitesmoke;
+           background-color: rgb(248, 68, 68);
+           color: black;
+           border-radius: 15px;
+           margin-top: 10px;
+           cursor: pointer; 
+        }
+        span{
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            background-color: bisque;
+        }
+        a{
+            text-decoration: none;
+            color: darkolivegreen;
+
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color: aqua;
+        }
+        .sigin,button[type=signup]{
+            display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 224px;
+           height: 25px;
+           border: 2.8px dashed whitesmoke;
+           background-color: rgb(68, 248, 140);
+           color: black;
+           border-radius: 15px;
+           margin-top: 10px;
+           cursor: pointer; 
+        }
+
+    </style>
+</head>
+<body>
+   
+    <img src="images/user.png" alt="user logo" class="logo">
+    <form action="process_signin.php" method="post">
+    <div class="signin">
+         <input type="text" name="username" placeholder="username">
+         <input type="password" name="password" placeholder="password">
+         <button type="submit">เข้าสู่ระบบ</button>
+         <button type="Reset">รีเซ็ต</button>
+         <button type="signup"><a href="signup.html">สมัครสมาชิก</a></button>
+         <span><a href="signup.html">ลงชื่อ</a></span>  
+    </div>
+    </form>
+
+</body>
+</html>
