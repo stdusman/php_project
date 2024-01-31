@@ -6,7 +6,7 @@
 
    echo "<h2>คุณได้ออกจากระบบแล้ว</h2>";
    echo "<h3>รอสักครู่.....</h3>";
-   header("refresh:3; url = index.php");
+   header("refresh:3; url = index.html");
 
 
 ?>

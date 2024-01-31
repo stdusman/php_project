@@ -16,7 +16,7 @@
    }else {
         $sql2 = "INSERT INTO profile(id,fullname,depname,gpa,photo,uname) VALUES (0,'','','','','$u')"; 
         $qry2 = mysqli_query($conn,$sql2);
-      if ($qry2) {
+      if (!$qry2) {
         echo "ลงทะเบียนไม่สำเร็จ ";
         header("refresh:3; url = signup.html");
       }else{
