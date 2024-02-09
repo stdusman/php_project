@@ -25,10 +25,11 @@
        <div>
          <a href="#">หน้าแรก</a>
          <a href="profile.php" target="_main">ประวัติส่วนตัว</a>
-         <a href="volunteer.php" target="main">กิจกกรมจิตอาสา</a>
+         <a href="volunteer.php" target="_main">กิจกกรมจิตอาสา</a>
          <a href="signout.php">ออกจากระบบ</a>
        </div> 
-       <iframe src="" frameborder="0" name="_main" width="100%">
+       <iframe src="" frameborder="0" name="_main" width="100%"
+       height="80%">
        </iframe>
     </body>
 </html>    

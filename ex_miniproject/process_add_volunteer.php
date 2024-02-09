@@ -13,7 +13,7 @@
    
    
 
-   $sql1 = "INSERT INTO tudo VALUES  (0,'$ve','$lo','$ho','$da','$un')"; 
+   $sql1 = "INSERT INTO todo VALUES  (0,'$ve','$lo','$ho','$da','$un')"; 
    $qry1 = mysqli_query($conn,$sql1);
    if (!$qry1) {
        echo "ไม่สามารถเพิ่มข้อมูลได้";
